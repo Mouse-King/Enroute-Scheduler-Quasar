@@ -1,0 +1,83 @@
+// app global css in SCSS form
+@font-face {
+    font-family: 'CarosBold';
+    src: url('../assets/fonts/caros/Caros Medium.woff');
+}
+
+@font-face {
+    font-family: 'Caros';
+    src: url('../assets/fonts/caros/Caros.woff');
+}
+
+@font-face {
+    font-family: 'CarosLight';
+    src: url('../assets/fonts/caros/CarosExtraLight.woff');
+}
+
+
+body {
+    font-family: Caros;
+    font-weight: 400;
+}
+
+.main-text-input {
+    border: none;
+}
+
+.main-text-input:hover {
+    outline: #a8c0ff40;
+}
+
+.heading-one {
+    font-size: 2rem;
+    font-family: CarosBold;
+}
+
+.heading-two {
+    font-size: 1.5rem;
+    font-family: CarosBold;
+}
+
+.body-text {
+    font-size: 1.2em;
+    font-family: Caros;
+}
+
+.body-text-caption {
+    font-size: .8em;
+    font-family: CarosLight;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.primary-button {
+    border-radius: 12px;
+    background: #0496FF;
+    color: white;
+    font-weight: 500;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.secondary-button {
+    border-radius: 12px;
+    background: #a8c0ff20;
+    color: black;
+    font-weight: 500;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.br-10 {
+    border-radius: 10px!important;
+}
+
+.box-shadow {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
